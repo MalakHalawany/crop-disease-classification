@@ -33,15 +33,15 @@ pip install -r requirements.txt
 ```
 
 🧠 Trained Models
-```
+
 | Filename                                        | Description                               |
 | ----------------------------------------------- | ----------------------------------------- |
 | `model_CNN_GPU_.keras`                          | Lightweight custom CNN                    |
 | `model_DN.keras`                                | Deep custom CNN with multiple conv blocks |
 | `plant_disease_model_EfficientNet1.keras`       | EfficientNet base model                   |
 | `plant_disease_model_EfficientNet1_final.keras` | Fine-tuned EfficientNet                   |
-| `VGG16_model.keras`                             | Transfer learning using VGG16             |
-```
+| `vgg16_plantvillage_2.keras`                    | Transfer learning using VGG16             |
+
 
 All models are located in the models/ directory. These models were trained on GPU using TensorFlow/Keras.
 
