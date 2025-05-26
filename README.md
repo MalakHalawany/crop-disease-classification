@@ -73,7 +73,7 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-## 📚 Dataset
+# 📚 Dataset
 [PlantVillage Dataset on Kaggle](https://www.kaggle.com/datasets/emmarex/plantdisease)
 
 📥 You don’t need to download it manually — the dataset is downloaded automatically in the notebook using the Kaggle API:
