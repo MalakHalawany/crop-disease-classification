@@ -4,56 +4,45 @@
 This project applies a range of computer vision techniques to identify crop diseases from leaf images. Below is a breakdown of the key CV components:
 
 📸 1. Image Acquisition & Dataset
+
 The dataset used is the PlantVillage dataset, which consists of high-resolution leaf images from different crops (e.g., tomato, potato, pepper), labeled as either healthy or affected by specific diseases (e.g., bacterial spot, early blight).
-
 Multiclass image classification task with 15 distinct classes
-
 Images are captured in controlled conditions with clear background
 
 🧼 2. Preprocessing
+
 To make the dataset suitable for deep learning:
-
 Resizing: All images are resized to 64x64x3 to standardize input dimensions for CNNs
-
 Normalization: Pixel values are scaled to the range [0, 1] to accelerate training convergence
-
 Data Augmentation:
-
 Random rotation
-
 Horizontal/vertical flipping
-
 Zooming
 
 These techniques help prevent overfitting and simulate real-world image variations.
 
 🧠 3. Feature Extraction via CNNs
-At the heart of the project is automatic feature extraction, powered by deep convolutional neural networks.
 
+At the heart of the project is automatic feature extraction, powered by deep convolutional neural networks.
 Key Models Used:
 ✅ Custom CNN: Learns spatial patterns like leaf texture, color spots, and disease boundaries from scratch
-
 ✅ VGG16: Pretrained on ImageNet, this model transfers learned filters for detecting textures, shapes, and edges
-
 ✅ EfficientNet: Scales up width/depth efficiently while preserving spatial hierarchies
-
 ✅ DenseNet121 (mentioned in your paper): Promotes feature reuse and learns dense, hierarchical visual patterns
 
 These models are trained to detect fine-grained differences between diseases that often look very similar to the human eye.
 
 🧪 4. Evaluation of Vision Models
+
 Performance is assessed using:
-
 Accuracy
-
 Precision, Recall, F1-Score
-
 Loss and accuracy plots across epochs
 
 Confusion matrices to observe class-specific performance
 ---
 
-🚀 Getting Started
+## 🚀 Getting Satrted 
 
 🛠️ Installation
 
