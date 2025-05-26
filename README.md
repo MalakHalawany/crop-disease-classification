@@ -5,9 +5,9 @@ This repository contains well-trained deep learning models and tools to detect c
 
 ---
 
-##🚀 Getting Started
+🚀 Getting Started
 
-#🛠️ Installation
+🛠️ Installation
 
 1.Clone this repository
 ```bash
@@ -27,14 +27,14 @@ pip install -r requirements.txt
 ## 📚 Dataset
 [PlantVillage Dataset on Kaggle](https://www.kaggle.com/datasets/emmarex/plantdisease)
 
-#📥 Download Dataset
-You don’t need to download it manually — the dataset is downloaded automatically in the notebook using the Kaggle API:
+📥 You don’t need to download it manually — the dataset is downloaded automatically in the notebook using the Kaggle API:
 ```python
 !kaggle datasets download emmarex/plantdisease
 ```
 
-#🧠 Trained Models
-```| Filename                                        | Description                               |
+🧠 Trained Models
+```
+| Filename                                        | Description                               |
 | ----------------------------------------------- | ----------------------------------------- |
 | `model_CNN_GPU_.keras`                          | Lightweight custom CNN                    |
 | `model_DN.keras`                                | Deep custom CNN with multiple conv blocks |
