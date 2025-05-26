@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 All models are located in the models/ directory. These models were trained on GPU using TensorFlow/Keras.
 
-#📓 Using the Notebook
+📓 Using the Notebook
 To run and explore the model:
 ```bash
 jupyter notebook notebooks/plantvillage_Final_deeplearning.ipynb
