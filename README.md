@@ -10,7 +10,8 @@ This repository contains well-trained deep learning models and tools to detect c
 1.Clone this repository
 ```bash
 git clone https://github.com/YOUR_USERNAME/crop-disease-classification.git
-cd crop-disease-classification```
+cd crop-disease-classification
+```
 
 2.Create and activate virtual environment (recommended)
 ```bash
