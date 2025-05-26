@@ -41,7 +41,7 @@ Key Models Used:
 
 ✅ EfficientNet: Scales up width/depth efficiently while preserving spatial hierarchies
 
-✅ DenseNet121 (mentioned in your paper): Promotes feature reuse and learns dense, hierarchical visual patterns
+✅ DenseNet121: Promotes feature reuse and learns dense, hierarchical visual patterns
 
 These models are trained to detect fine-grained differences between diseases that often look very similar to the human eye.
 
